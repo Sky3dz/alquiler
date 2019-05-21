@@ -1,1 +1,4 @@
 Aqui subiran sus Script BD
+
+** Enviar Script de sus procedimientos almacenados
+** Si es necesario tambien Triggers
