@@ -30,18 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMnuAlquiler));
             this.stMenu = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tbMenu = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maestrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.edificiosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stMenu.SuspendLayout();
             this.tbMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -54,11 +55,32 @@
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel3,
             this.toolStripStatusLabel2});
-            this.stMenu.Location = new System.Drawing.Point(0, 263);
+            this.stMenu.Location = new System.Drawing.Point(0, 386);
             this.stMenu.Name = "stMenu";
-            this.stMenu.Size = new System.Drawing.Size(398, 22);
+            this.stMenu.Size = new System.Drawing.Size(555, 22);
             this.stMenu.TabIndex = 2;
             this.stMenu.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.Blue;
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(53, 17);
+            this.toolStripStatusLabel1.Text = "Usuario: ";
+            // 
+            // toolStripStatusLabel3
+            // 
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(28, 17);
+            this.toolStripStatusLabel3.Text = "       ";
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripStatusLabel2.ForeColor = System.Drawing.Color.Maroon;
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(213, 17);
+            this.toolStripStatusLabel2.Text = "USP - Informatica y sistemas - 2019-I";
             // 
             // tbMenu
             // 
@@ -67,7 +89,7 @@
             this.toolStripButton2});
             this.tbMenu.Location = new System.Drawing.Point(0, 24);
             this.tbMenu.Name = "tbMenu";
-            this.tbMenu.Size = new System.Drawing.Size(398, 25);
+            this.tbMenu.Size = new System.Drawing.Size(555, 25);
             this.tbMenu.TabIndex = 3;
             // 
             // toolStripButton1
@@ -88,21 +110,6 @@
             this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton2.Text = "toolStripButton2";
             // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.Blue;
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(53, 17);
-            this.toolStripStatusLabel1.Text = "Usuario: ";
-            // 
-            // toolStripStatusLabel2
-            // 
-            this.toolStripStatusLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripStatusLabel2.ForeColor = System.Drawing.Color.Maroon;
-            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(213, 17);
-            this.toolStripStatusLabel2.Text = "USP - Informatica y sistemas - 2019-I";
-            // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -113,7 +120,7 @@
             this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(398, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(555, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -125,6 +132,8 @@
             // 
             // maestrosToolStripMenuItem
             // 
+            this.maestrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.edificiosToolStripMenuItem});
             this.maestrosToolStripMenuItem.Name = "maestrosToolStripMenuItem";
             this.maestrosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.maestrosToolStripMenuItem.Text = "Maestros";
@@ -147,17 +156,17 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // toolStripStatusLabel3
+            // edificiosToolStripMenuItem
             // 
-            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(28, 17);
-            this.toolStripStatusLabel3.Text = "       ";
+            this.edificiosToolStripMenuItem.Name = "edificiosToolStripMenuItem";
+            this.edificiosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.edificiosToolStripMenuItem.Text = "Edificios";
             // 
             // FrmMnuAlquiler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(398, 285);
+            this.ClientSize = new System.Drawing.Size(555, 408);
             this.Controls.Add(this.tbMenu);
             this.Controls.Add(this.stMenu);
             this.Controls.Add(this.menuStrip1);
@@ -189,6 +198,7 @@
         private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem edificiosToolStripMenuItem;
     }
 }
 
