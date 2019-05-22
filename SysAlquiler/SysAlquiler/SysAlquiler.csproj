@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersona.Designer.cs">
+      <DependentUpon>FrmPersona.cs</DependentUpon>
+    </Compile>
     <Compile Include="Oficina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersona.resx">
+      <DependentUpon>FrmPersona.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Oficina.resx">
       <DependentUpon>Oficina.cs</DependentUpon>
@@ -106,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
