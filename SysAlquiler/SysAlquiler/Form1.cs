@@ -40,5 +40,12 @@ namespace SysAlquiler
             TipoDocumentoIdentidad documentoiden = new TipoDocumentoIdentidad();
             documentoiden.Show();
         }
+
+        private void tarifaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Tarifa t = new Tarifa();
+
+            t.ShowDialog();
+        }
     }
 }

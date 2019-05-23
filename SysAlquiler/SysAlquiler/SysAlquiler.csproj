@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buscar Concepto T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar Concepto T.Designer.cs">
+      <DependentUpon>Buscar Concepto T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscar_Tarifa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Tarifa.Designer.cs">
+      <DependentUpon>Buscar_Tarifa.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReciboArrendamiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,12 +96,24 @@
     <Compile Include="RptMorosos.Designer.cs">
       <DependentUpon>RptMorosos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tarifa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarifa.Designer.cs">
+      <DependentUpon>Tarifa.cs</DependentUpon>
+    </Compile>
     <Compile Include="TipoDocumentoIdentidad.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TipoDocumentoIdentidad.Designer.cs">
       <DependentUpon>TipoDocumentoIdentidad.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Buscar Concepto T.resx">
+      <DependentUpon>Buscar Concepto T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscar_Tarifa.resx">
+      <DependentUpon>Buscar_Tarifa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ReciboArrendamiento.resx">
       <DependentUpon>ReciboArrendamiento.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +139,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Tarifa.resx">
+      <DependentUpon>Tarifa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TipoDocumentoIdentidad.resx">
       <DependentUpon>TipoDocumentoIdentidad.cs</DependentUpon>
     </EmbeddedResource>

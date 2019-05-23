@@ -40,13 +40,14 @@
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maestrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.edificiosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oficinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oficinaServicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modoDePagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.documentoIdentidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tarifaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stMenu.SuspendLayout();
             this.tbMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -141,7 +142,8 @@
             this.oficinaToolStripMenuItem,
             this.oficinaServicioToolStripMenuItem,
             this.modoDePagoToolStripMenuItem,
-            this.documentoIdentidadToolStripMenuItem});
+            this.documentoIdentidadToolStripMenuItem,
+            this.tarifaToolStripMenuItem});
             this.maestrosToolStripMenuItem.Name = "maestrosToolStripMenuItem";
             this.maestrosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.maestrosToolStripMenuItem.Text = "Maestros";
@@ -149,8 +151,36 @@
             // edificiosToolStripMenuItem
             // 
             this.edificiosToolStripMenuItem.Name = "edificiosToolStripMenuItem";
-            this.edificiosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.edificiosToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
             this.edificiosToolStripMenuItem.Text = "Edificios";
+            // 
+            // oficinaToolStripMenuItem
+            // 
+            this.oficinaToolStripMenuItem.Name = "oficinaToolStripMenuItem";
+            this.oficinaToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.oficinaToolStripMenuItem.Text = "Oficina";
+            this.oficinaToolStripMenuItem.Click += new System.EventHandler(this.oficinaToolStripMenuItem_Click);
+            // 
+            // oficinaServicioToolStripMenuItem
+            // 
+            this.oficinaServicioToolStripMenuItem.Name = "oficinaServicioToolStripMenuItem";
+            this.oficinaServicioToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.oficinaServicioToolStripMenuItem.Text = "Oficina servicio";
+            this.oficinaServicioToolStripMenuItem.Click += new System.EventHandler(this.oficinaServicioToolStripMenuItem_Click);
+            // 
+            // modoDePagoToolStripMenuItem
+            // 
+            this.modoDePagoToolStripMenuItem.Name = "modoDePagoToolStripMenuItem";
+            this.modoDePagoToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.modoDePagoToolStripMenuItem.Text = "Modo de pago";
+            this.modoDePagoToolStripMenuItem.Click += new System.EventHandler(this.modoDePagoToolStripMenuItem_Click);
+            // 
+            // documentoIdentidadToolStripMenuItem
+            // 
+            this.documentoIdentidadToolStripMenuItem.Name = "documentoIdentidadToolStripMenuItem";
+            this.documentoIdentidadToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.documentoIdentidadToolStripMenuItem.Text = "Tipo documento de identidad";
+            this.documentoIdentidadToolStripMenuItem.Click += new System.EventHandler(this.documentoIdentidadToolStripMenuItem_Click);
             // 
             // procesosToolStripMenuItem
             // 
@@ -170,33 +200,12 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // oficinaToolStripMenuItem
+            // tarifaToolStripMenuItem
             // 
-            this.oficinaToolStripMenuItem.Name = "oficinaToolStripMenuItem";
-            this.oficinaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.oficinaToolStripMenuItem.Text = "Oficina";
-            this.oficinaToolStripMenuItem.Click += new System.EventHandler(this.oficinaToolStripMenuItem_Click);
-            // 
-            // oficinaServicioToolStripMenuItem
-            // 
-            this.oficinaServicioToolStripMenuItem.Name = "oficinaServicioToolStripMenuItem";
-            this.oficinaServicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.oficinaServicioToolStripMenuItem.Text = "Oficina servicio";
-            this.oficinaServicioToolStripMenuItem.Click += new System.EventHandler(this.oficinaServicioToolStripMenuItem_Click);
-            // 
-            // modoDePagoToolStripMenuItem
-            // 
-            this.modoDePagoToolStripMenuItem.Name = "modoDePagoToolStripMenuItem";
-            this.modoDePagoToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.modoDePagoToolStripMenuItem.Text = "Modo de pago";
-            this.modoDePagoToolStripMenuItem.Click += new System.EventHandler(this.modoDePagoToolStripMenuItem_Click);
-            // 
-            // documentoIdentidadToolStripMenuItem
-            // 
-            this.documentoIdentidadToolStripMenuItem.Name = "documentoIdentidadToolStripMenuItem";
-            this.documentoIdentidadToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
-            this.documentoIdentidadToolStripMenuItem.Text = "Tipo documento de identidad";
-            this.documentoIdentidadToolStripMenuItem.Click += new System.EventHandler(this.documentoIdentidadToolStripMenuItem_Click);
+            this.tarifaToolStripMenuItem.Name = "tarifaToolStripMenuItem";
+            this.tarifaToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.tarifaToolStripMenuItem.Text = "Tarifa";
+            this.tarifaToolStripMenuItem.Click += new System.EventHandler(this.tarifaToolStripMenuItem_Click);
             // 
             // FrmMnuAlquiler
             // 
@@ -239,6 +248,7 @@
         private System.Windows.Forms.ToolStripMenuItem oficinaServicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modoDePagoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem documentoIdentidadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tarifaToolStripMenuItem;
     }
 }
 
