@@ -37,8 +37,8 @@ namespace SysAlquiler
 
         private void documentoIdentidadToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TipoDocumentoIdentidad documentoide = new TipoDocumentoIdentidad();
-            documentoide.Show();
+            TipoDocumentoIdentidad documentoiden = new TipoDocumentoIdentidad();
+            documentoiden.Show();
         }
     }
 }
