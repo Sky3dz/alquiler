@@ -16,5 +16,17 @@ namespace SysAlquiler
         {
             InitializeComponent();
         }
+
+        private void modoPagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ModoPago frmpago = new ModoPago();
+            frmpago.Show();
+        }
+
+        private void documentoIdentidadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TipoDocumentoIdentidad frmdocumentoidentidad = new TipoDocumentoIdentidad();
+            frmdocumentoidentidad.Show();
+        }
     }
 }
