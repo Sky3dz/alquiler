@@ -28,5 +28,17 @@ namespace SysAlquiler
             OficinaServicio ofiser = new OficinaServicio();
             ofiser.Show();
         }
+
+        private void modoDePagoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ModoPago mpago = new ModoPago();
+            mpago.Show();
+        }
+
+        private void documentoIdentidadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TipoDocumentoIdentidad docuiden = new TipoDocumentoIdentidad();
+            docuiden.Show();
+        }
     }
 }
