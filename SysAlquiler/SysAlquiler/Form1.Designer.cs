@@ -194,8 +194,8 @@
             // documentoIdentidadToolStripMenuItem
             // 
             this.documentoIdentidadToolStripMenuItem.Name = "documentoIdentidadToolStripMenuItem";
-            this.documentoIdentidadToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.documentoIdentidadToolStripMenuItem.Text = "Documento identidad";
+            this.documentoIdentidadToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.documentoIdentidadToolStripMenuItem.Text = "Tipo documento de identidad";
             this.documentoIdentidadToolStripMenuItem.Click += new System.EventHandler(this.documentoIdentidadToolStripMenuItem_Click);
             // 
             // FrmMnuAlquiler
