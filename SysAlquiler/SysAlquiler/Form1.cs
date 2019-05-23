@@ -16,5 +16,17 @@ namespace SysAlquiler
         {
             InitializeComponent();
         }
+
+        private void oficinaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Oficina ofi = new Oficina();
+            ofi.Show();
+        }
+
+        private void oficinaServicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OficinaServicio ofiser = new OficinaServicio();
+            ofiser.Show();
+        }
     }
 }

@@ -39,10 +39,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maestrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.edificiosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.edificiosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oficinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oficinaServicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stMenu.SuspendLayout();
             this.tbMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -133,10 +135,18 @@
             // maestrosToolStripMenuItem
             // 
             this.maestrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.edificiosToolStripMenuItem});
+            this.edificiosToolStripMenuItem,
+            this.oficinaToolStripMenuItem,
+            this.oficinaServicioToolStripMenuItem});
             this.maestrosToolStripMenuItem.Name = "maestrosToolStripMenuItem";
             this.maestrosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.maestrosToolStripMenuItem.Text = "Maestros";
+            // 
+            // edificiosToolStripMenuItem
+            // 
+            this.edificiosToolStripMenuItem.Name = "edificiosToolStripMenuItem";
+            this.edificiosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.edificiosToolStripMenuItem.Text = "Edificios";
             // 
             // procesosToolStripMenuItem
             // 
@@ -156,11 +166,19 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // edificiosToolStripMenuItem
+            // oficinaToolStripMenuItem
             // 
-            this.edificiosToolStripMenuItem.Name = "edificiosToolStripMenuItem";
-            this.edificiosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.edificiosToolStripMenuItem.Text = "Edificios";
+            this.oficinaToolStripMenuItem.Name = "oficinaToolStripMenuItem";
+            this.oficinaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oficinaToolStripMenuItem.Text = "Oficina";
+            this.oficinaToolStripMenuItem.Click += new System.EventHandler(this.oficinaToolStripMenuItem_Click);
+            // 
+            // oficinaServicioToolStripMenuItem
+            // 
+            this.oficinaServicioToolStripMenuItem.Name = "oficinaServicioToolStripMenuItem";
+            this.oficinaServicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oficinaServicioToolStripMenuItem.Text = "Oficina servicio";
+            this.oficinaServicioToolStripMenuItem.Click += new System.EventHandler(this.oficinaServicioToolStripMenuItem_Click);
             // 
             // FrmMnuAlquiler
             // 
@@ -199,6 +217,8 @@
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem edificiosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oficinaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oficinaServicioToolStripMenuItem;
     }
 }
 
