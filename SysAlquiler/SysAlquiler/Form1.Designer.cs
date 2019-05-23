@@ -39,12 +39,10 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maestrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.edificiosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modoPagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.documentoIdentidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.edificiosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stMenu.SuspendLayout();
             this.tbMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -135,18 +133,10 @@
             // maestrosToolStripMenuItem
             // 
             this.maestrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.edificiosToolStripMenuItem,
-            this.modoPagoToolStripMenuItem,
-            this.documentoIdentidadToolStripMenuItem});
+            this.edificiosToolStripMenuItem});
             this.maestrosToolStripMenuItem.Name = "maestrosToolStripMenuItem";
             this.maestrosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.maestrosToolStripMenuItem.Text = "Maestros";
-            // 
-            // edificiosToolStripMenuItem
-            // 
-            this.edificiosToolStripMenuItem.Name = "edificiosToolStripMenuItem";
-            this.edificiosToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.edificiosToolStripMenuItem.Text = "Edificios";
             // 
             // procesosToolStripMenuItem
             // 
@@ -166,19 +156,11 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // modoPagoToolStripMenuItem
+            // edificiosToolStripMenuItem
             // 
-            this.modoPagoToolStripMenuItem.Name = "modoPagoToolStripMenuItem";
-            this.modoPagoToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.modoPagoToolStripMenuItem.Text = "Modo Pago";
-            this.modoPagoToolStripMenuItem.Click += new System.EventHandler(this.modoPagoToolStripMenuItem_Click);
-            // 
-            // documentoIdentidadToolStripMenuItem
-            // 
-            this.documentoIdentidadToolStripMenuItem.Name = "documentoIdentidadToolStripMenuItem";
-            this.documentoIdentidadToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
-            this.documentoIdentidadToolStripMenuItem.Text = "Documento Identidad";
-            this.documentoIdentidadToolStripMenuItem.Click += new System.EventHandler(this.documentoIdentidadToolStripMenuItem_Click);
+            this.edificiosToolStripMenuItem.Name = "edificiosToolStripMenuItem";
+            this.edificiosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.edificiosToolStripMenuItem.Text = "Edificios";
             // 
             // FrmMnuAlquiler
             // 
@@ -217,8 +199,6 @@
         private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem edificiosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modoPagoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem documentoIdentidadToolStripMenuItem;
     }
 }
 
