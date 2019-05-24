@@ -102,6 +102,12 @@
     <Compile Include="Reg_moneda.Designer.cs">
       <DependentUpon>Reg_moneda.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reporte_Conceptos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporte_Conceptos.Designer.cs">
+      <DependentUpon>Reporte_Conceptos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reporte_Morosos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,9 @@
     </Compile>
     <EmbeddedResource Include="Reg_moneda.resx">
       <DependentUpon>Reg_moneda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte_Conceptos.resx">
+      <DependentUpon>Reporte_Conceptos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reporte_Morosos.resx">
       <DependentUpon>Reporte_Morosos.cs</DependentUpon>

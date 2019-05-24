@@ -71,5 +71,11 @@ namespace SysAlquiler
             Envio_Archivo env = new Envio_Archivo();
             env.Show();
         }
+
+        private void reportesConceptosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reporte_Conceptos repor = new Reporte_Conceptos();
+            repor.Show();
+        }
     }
 }

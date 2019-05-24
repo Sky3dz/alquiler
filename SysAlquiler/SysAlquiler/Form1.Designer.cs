@@ -38,6 +38,7 @@
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enviosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maestrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.edificiosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oficinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,7 +52,7 @@
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteMorososToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.enviosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportesConceptosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stMenu.SuspendLayout();
             this.tbMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -141,6 +142,13 @@
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
+            // enviosToolStripMenuItem
+            // 
+            this.enviosToolStripMenuItem.Name = "enviosToolStripMenuItem";
+            this.enviosToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.enviosToolStripMenuItem.Text = "Envios";
+            this.enviosToolStripMenuItem.Click += new System.EventHandler(this.enviosToolStripMenuItem_Click);
+            // 
             // maestrosToolStripMenuItem
             // 
             this.maestrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -220,7 +228,8 @@
             // reportesToolStripMenuItem
             // 
             this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.reporteMorososToolStripMenuItem});
+            this.reporteMorososToolStripMenuItem,
+            this.reportesConceptosToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -228,7 +237,7 @@
             // reporteMorososToolStripMenuItem
             // 
             this.reporteMorososToolStripMenuItem.Name = "reporteMorososToolStripMenuItem";
-            this.reporteMorososToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.reporteMorososToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.reporteMorososToolStripMenuItem.Text = "Reporte Morosos";
             this.reporteMorososToolStripMenuItem.Click += new System.EventHandler(this.reporteMorososToolStripMenuItem_Click);
             // 
@@ -238,12 +247,12 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // enviosToolStripMenuItem
+            // reportesConceptosToolStripMenuItem
             // 
-            this.enviosToolStripMenuItem.Name = "enviosToolStripMenuItem";
-            this.enviosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.enviosToolStripMenuItem.Text = "Envios";
-            this.enviosToolStripMenuItem.Click += new System.EventHandler(this.enviosToolStripMenuItem_Click);
+            this.reportesConceptosToolStripMenuItem.Name = "reportesConceptosToolStripMenuItem";
+            this.reportesConceptosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reportesConceptosToolStripMenuItem.Text = "Reportes Conceptos";
+            this.reportesConceptosToolStripMenuItem.Click += new System.EventHandler(this.reportesConceptosToolStripMenuItem_Click);
             // 
             // FrmMnuAlquiler
             // 
@@ -291,6 +300,7 @@
         private System.Windows.Forms.ToolStripMenuItem monedaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tipoMedioComunicacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem enviosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportesConceptosToolStripMenuItem;
     }
 }
 
