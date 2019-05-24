@@ -47,8 +47,10 @@
             this.tarifaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteMorososToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tipoMedioComunicacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stMenu.SuspendLayout();
             this.tbMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -144,7 +146,9 @@
             this.oficinaServicioToolStripMenuItem,
             this.modoDePagoToolStripMenuItem,
             this.documentoIdentidadToolStripMenuItem,
-            this.tarifaToolStripMenuItem});
+            this.tarifaToolStripMenuItem,
+            this.monedaToolStripMenuItem,
+            this.tipoMedioComunicacionToolStripMenuItem});
             this.maestrosToolStripMenuItem.Name = "maestrosToolStripMenuItem";
             this.maestrosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.maestrosToolStripMenuItem.Text = "Maestros";
@@ -204,18 +208,32 @@
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.reportesToolStripMenuItem.Text = "Reportes";
             // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
             // reporteMorososToolStripMenuItem
             // 
             this.reporteMorososToolStripMenuItem.Name = "reporteMorososToolStripMenuItem";
             this.reporteMorososToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.reporteMorososToolStripMenuItem.Text = "Reporte Morosos";
             this.reporteMorososToolStripMenuItem.Click += new System.EventHandler(this.reporteMorososToolStripMenuItem_Click);
+            // 
+            // ayudaToolStripMenuItem
+            // 
+            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            // 
+            // monedaToolStripMenuItem
+            // 
+            this.monedaToolStripMenuItem.Name = "monedaToolStripMenuItem";
+            this.monedaToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.monedaToolStripMenuItem.Text = "Tipo Medio Comunicacion";
+            this.monedaToolStripMenuItem.Click += new System.EventHandler(this.monedaToolStripMenuItem_Click);
+            // 
+            // tipoMedioComunicacionToolStripMenuItem
+            // 
+            this.tipoMedioComunicacionToolStripMenuItem.Name = "tipoMedioComunicacionToolStripMenuItem";
+            this.tipoMedioComunicacionToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.tipoMedioComunicacionToolStripMenuItem.Text = "Moneda";
+            this.tipoMedioComunicacionToolStripMenuItem.Click += new System.EventHandler(this.tipoMedioComunicacionToolStripMenuItem_Click);
             // 
             // FrmMnuAlquiler
             // 
@@ -260,6 +278,8 @@
         private System.Windows.Forms.ToolStripMenuItem documentoIdentidadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tarifaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteMorososToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem monedaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tipoMedioComunicacionToolStripMenuItem;
     }
 }
 

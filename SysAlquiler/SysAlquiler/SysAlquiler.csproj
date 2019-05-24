@@ -90,11 +90,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reg_moneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reg_moneda.Designer.cs">
+      <DependentUpon>Reg_moneda.cs</DependentUpon>
+    </Compile>
     <Compile Include="Reporte_Morosos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reporte_Morosos.Designer.cs">
       <DependentUpon>Reporte_Morosos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Re_tip_medio_com.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re_tip_medio_com.Designer.cs">
+      <DependentUpon>Re_tip_medio_com.cs</DependentUpon>
     </Compile>
     <Compile Include="Tarifa.cs">
       <SubType>Form</SubType>
@@ -139,8 +151,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Reg_moneda.resx">
+      <DependentUpon>Reg_moneda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reporte_Morosos.resx">
       <DependentUpon>Reporte_Morosos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re_tip_medio_com.resx">
+      <DependentUpon>Re_tip_medio_com.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tarifa.resx">
       <DependentUpon>Tarifa.cs</DependentUpon>
