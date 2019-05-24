@@ -47,5 +47,11 @@ namespace SysAlquiler
 
             t.ShowDialog();
         }
+
+        private void reporteMorososToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reporte_Morosos rpt = new Reporte_Morosos();
+            rpt.Show();
+        }
     }
 }

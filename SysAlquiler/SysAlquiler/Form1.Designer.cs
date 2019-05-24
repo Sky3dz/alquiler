@@ -44,10 +44,11 @@
             this.oficinaServicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modoDePagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.documentoIdentidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tarifaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tarifaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteMorososToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stMenu.SuspendLayout();
             this.tbMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -182,6 +183,13 @@
             this.documentoIdentidadToolStripMenuItem.Text = "Tipo documento de identidad";
             this.documentoIdentidadToolStripMenuItem.Click += new System.EventHandler(this.documentoIdentidadToolStripMenuItem_Click);
             // 
+            // tarifaToolStripMenuItem
+            // 
+            this.tarifaToolStripMenuItem.Name = "tarifaToolStripMenuItem";
+            this.tarifaToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.tarifaToolStripMenuItem.Text = "Tarifa";
+            this.tarifaToolStripMenuItem.Click += new System.EventHandler(this.tarifaToolStripMenuItem_Click);
+            // 
             // procesosToolStripMenuItem
             // 
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
@@ -190,6 +198,8 @@
             // 
             // reportesToolStripMenuItem
             // 
+            this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reporteMorososToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -200,12 +210,12 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // tarifaToolStripMenuItem
+            // reporteMorososToolStripMenuItem
             // 
-            this.tarifaToolStripMenuItem.Name = "tarifaToolStripMenuItem";
-            this.tarifaToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
-            this.tarifaToolStripMenuItem.Text = "Tarifa";
-            this.tarifaToolStripMenuItem.Click += new System.EventHandler(this.tarifaToolStripMenuItem_Click);
+            this.reporteMorososToolStripMenuItem.Name = "reporteMorososToolStripMenuItem";
+            this.reporteMorososToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.reporteMorososToolStripMenuItem.Text = "Reporte Morosos";
+            this.reporteMorososToolStripMenuItem.Click += new System.EventHandler(this.reporteMorososToolStripMenuItem_Click);
             // 
             // FrmMnuAlquiler
             // 
@@ -249,6 +259,7 @@
         private System.Windows.Forms.ToolStripMenuItem modoDePagoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem documentoIdentidadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tarifaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteMorososToolStripMenuItem;
     }
 }
 
