@@ -65,5 +65,11 @@ namespace SysAlquiler
             Reg_moneda b = new Reg_moneda();
             b.Show();
         }
+
+        private void enviosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Envio_Archivo env = new Envio_Archivo();
+            env.Show();
+        }
     }
 }

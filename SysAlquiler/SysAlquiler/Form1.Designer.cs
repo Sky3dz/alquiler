@@ -45,12 +45,13 @@
             this.modoDePagoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.documentoIdentidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tarifaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tipoMedioComunicacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteMorososToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.monedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tipoMedioComunicacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.enviosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stMenu.SuspendLayout();
             this.tbMenu.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -134,6 +135,8 @@
             // 
             // archivoToolStripMenuItem
             // 
+            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.enviosToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
@@ -194,6 +197,20 @@
             this.tarifaToolStripMenuItem.Text = "Tarifa";
             this.tarifaToolStripMenuItem.Click += new System.EventHandler(this.tarifaToolStripMenuItem_Click);
             // 
+            // monedaToolStripMenuItem
+            // 
+            this.monedaToolStripMenuItem.Name = "monedaToolStripMenuItem";
+            this.monedaToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.monedaToolStripMenuItem.Text = "Tipo Medio Comunicacion";
+            this.monedaToolStripMenuItem.Click += new System.EventHandler(this.monedaToolStripMenuItem_Click);
+            // 
+            // tipoMedioComunicacionToolStripMenuItem
+            // 
+            this.tipoMedioComunicacionToolStripMenuItem.Name = "tipoMedioComunicacionToolStripMenuItem";
+            this.tipoMedioComunicacionToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
+            this.tipoMedioComunicacionToolStripMenuItem.Text = "Moneda";
+            this.tipoMedioComunicacionToolStripMenuItem.Click += new System.EventHandler(this.tipoMedioComunicacionToolStripMenuItem_Click);
+            // 
             // procesosToolStripMenuItem
             // 
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
@@ -221,19 +238,12 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // monedaToolStripMenuItem
+            // enviosToolStripMenuItem
             // 
-            this.monedaToolStripMenuItem.Name = "monedaToolStripMenuItem";
-            this.monedaToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
-            this.monedaToolStripMenuItem.Text = "Tipo Medio Comunicacion";
-            this.monedaToolStripMenuItem.Click += new System.EventHandler(this.monedaToolStripMenuItem_Click);
-            // 
-            // tipoMedioComunicacionToolStripMenuItem
-            // 
-            this.tipoMedioComunicacionToolStripMenuItem.Name = "tipoMedioComunicacionToolStripMenuItem";
-            this.tipoMedioComunicacionToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
-            this.tipoMedioComunicacionToolStripMenuItem.Text = "Moneda";
-            this.tipoMedioComunicacionToolStripMenuItem.Click += new System.EventHandler(this.tipoMedioComunicacionToolStripMenuItem_Click);
+            this.enviosToolStripMenuItem.Name = "enviosToolStripMenuItem";
+            this.enviosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.enviosToolStripMenuItem.Text = "Envios";
+            this.enviosToolStripMenuItem.Click += new System.EventHandler(this.enviosToolStripMenuItem_Click);
             // 
             // FrmMnuAlquiler
             // 
@@ -280,6 +290,7 @@
         private System.Windows.Forms.ToolStripMenuItem reporteMorososToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem monedaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tipoMedioComunicacionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem enviosToolStripMenuItem;
     }
 }
 

@@ -58,6 +58,12 @@
     <Compile Include="Buscar_Tarifa.Designer.cs">
       <DependentUpon>Buscar_Tarifa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Envio_Archivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Envio_Archivo.Designer.cs">
+      <DependentUpon>Envio_Archivo.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReciboArrendamiento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Buscar_Tarifa.resx">
       <DependentUpon>Buscar_Tarifa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Envio_Archivo.resx">
+      <DependentUpon>Envio_Archivo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReciboArrendamiento.resx">
       <DependentUpon>ReciboArrendamiento.cs</DependentUpon>
