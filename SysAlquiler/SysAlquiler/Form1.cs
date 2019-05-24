@@ -47,5 +47,29 @@ namespace SysAlquiler
 
             t.ShowDialog();
         }
+
+        private void reporteMorososToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reporte_Morosos rpt = new Reporte_Morosos();
+            rpt.Show();
+        }
+
+        private void monedaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Re_tip_medio_com a = new Re_tip_medio_com();
+            a.Show();
+        }
+
+        private void tipoMedioComunicacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Reg_moneda b = new Reg_moneda();
+            b.Show();
+        }
+
+        private void enviosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Envio_Archivo env = new Envio_Archivo();
+            env.Show();
+        }
     }
 }

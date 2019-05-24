@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SysAlquiler
 {
-    public partial class ReporteMorosos : Form
+    public partial class Reg_moneda : Form
     {
-        public ReporteMorosos()
+        public Reg_moneda()
         {
             InitializeComponent();
         }
