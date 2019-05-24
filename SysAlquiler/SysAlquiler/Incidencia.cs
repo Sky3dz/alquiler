@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace SysAlquiler
 {
-    public partial class ReporteMorosos : Form
+    public partial class Incidencia : Form
     {
-        public ReporteMorosos()
+        public Incidencia()
         {
             InitializeComponent();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
